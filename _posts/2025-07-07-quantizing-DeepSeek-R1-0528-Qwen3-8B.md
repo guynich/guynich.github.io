@@ -75,7 +75,8 @@ I manually stopped the run.
 ## 4. llama-run with My Quantized Model
 
 To get better control over inference, I switched to using llama-run from
-llama.cpp, built for ARM with GPU offload enabled.
+llama.cpp, built for ARM.  The command `--ngl` enables layer offload which
+prioritizes the fast cores on the ARM SoC.
 
 Here's the command I used:
 ```bash
@@ -124,5 +125,5 @@ resource-constrained devices like the OrangePi 5.
 - [ ] Check model temperature and test other Ollama hyperparameters
 - [ ] Try a broader test set of riddles and reasoning prompts
 
-Want to try it yourself? Grab the quantized model on Hugging Face:
+Want to try it yourself? Grab the quantized model on HuggingFace:
 [DeepSeek-R1-0528-Qwen3-8B_Q4_K_M](https://huggingface.co/guynich/DeepSeek-R1-0528-Qwen3-8B_Q4_K_M) .
