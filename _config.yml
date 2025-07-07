@@ -1,4 +1,6 @@
 title: Journal
 description: A personal blog
-# theme: minima  # or "jekyll-theme-midnight", "jekyll-theme-cayman", etc.
 remote_theme: "jekyll/minima@1e8a445"
+
+plugins:
+  - jekyll-remote-theme
