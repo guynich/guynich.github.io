@@ -1,4 +1,6 @@
-Just a simple journal by Guy Nicholson to cover work topics.
+Just a simple
+[journal](https://guynich.github.io/)
+by Guy Nicholson to cover work topics.
 
 My GitHub home page is
 [github.com/guynich](https://github.com/guynich).
