@@ -126,4 +126,4 @@ resource-constrained devices like the OrangePi 5.
 - [ ] Try a broader test set of riddles and reasoning prompts
 
 Want to try it yourself? Grab the quantized model on HuggingFace:
-[DeepSeek-R1-0528-Qwen3-8B_Q4_K_M](https://huggingface.co/guynich/DeepSeek-R1-0528-Qwen3-8B_Q4_K_M) .
+[DeepSeek-R1-0528-Qwen3-8B_Q4_K_M](https://huggingface.co/guynich/DeepSeek-R1-0528-Qwen3-8B_Q4_K_M)
