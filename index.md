@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome
+# title: Welcome
 ---
 
-This is the home page for this journal.
+# This is the home page for this journal.
