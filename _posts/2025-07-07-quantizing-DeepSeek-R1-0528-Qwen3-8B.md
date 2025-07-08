@@ -1,9 +1,9 @@
 In May 2025, DeepSeek released an impressive update to their R1 model: the
-[R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B).
+[DeepSeek-R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B).
 The full baseline currently ranks in the Top-10 on the
 [LLM leaderboard](https://llm-stats.com).
 
-I set out to run the 8B variant on a low-cost
+I set out to run this on a low-cost
 [OrangePi 5](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html) —
 a single board computer with just **8GB** of RAM and an ARM SoC.
 
@@ -14,16 +14,17 @@ Earlier this year, I used the original DeepSeek-R1 model for a
 class and documented the setup in this
 [GitHub repo](https://github.com/guynich/deepseek_opi5plus).
 
-### Challenge: R1-0528-8B Requires Quantization
+### Challenge: Model Requires Quantization
 
-The updated model weighs in at ~16GB, far beyond the RAM capacity of the
-OrangePi 5. Quantization is necessary to make it run.
+The 8B parameter model with bfloat16 precision weighs in at ~16GB, far
+beyond the 8GB RAM capacity of the OrangePi 5. Quantization is necessary to
+make it run.
 
 ---
 
 ### 1. Baseline Colab Test (unquantized)
 
-I first verified the float 8B model on
+I first verified the bfloat16 8B model on
 [Google Colab](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B/colab)
 using a 40GB A100 GPU with a classic reasoning riddle. The model responded
 correctly with **"heroine"** — ideal behavior.
