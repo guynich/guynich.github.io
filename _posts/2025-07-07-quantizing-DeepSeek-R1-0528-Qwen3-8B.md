@@ -1,12 +1,11 @@
-## Running DeepSeek R1-0528-8B on an OrangePi 5 (8GB RAM)
-
 In May 2025, DeepSeek released an impressive update to their R1 model: the
 [R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B).
 The full baseline currently ranks in the Top-10 on the
 [LLM leaderboard](https://llm-stats.com).
+
 I set out to run the 8B variant on a low-cost
 [OrangePi 5](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html) —
-a single board computer with just 8GB of RAM and an ARM SoC.
+a single board computer with just **8GB** of RAM and an ARM SoC.
 
 ### Background
 
