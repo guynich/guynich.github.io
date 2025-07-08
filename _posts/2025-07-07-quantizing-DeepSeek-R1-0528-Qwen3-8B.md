@@ -1,4 +1,4 @@
-# Running DeepSeek R1-0528-8B on an OrangePi 5 (8GB RAM)
+## Running DeepSeek R1-0528-8B on an OrangePi 5 (8GB RAM)
 
 In May 2025, DeepSeek released an impressive update to their R1 model: the
 [R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B).
@@ -8,21 +8,21 @@ I set out to run the 8B variant on a low-cost
 [OrangePi 5](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html) —
 a single board computer with just 8GB of RAM and an ARM SoC.
 
-## Background
+### Background
 
 Earlier this year, I used the original DeepSeek-R1 model for a
 [Stanford Continuing Studies](https://continuingstudies.stanford.edu)
 class and documented the setup in this
 [GitHub repo](https://github.com/guynich/deepseek_opi5plus).
 
-## Challenge: R1-0528-8B Requires Quantization
+### Challenge: R1-0528-8B Requires Quantization
 
 The updated model weighs in at ~16GB, far beyond the RAM capacity of the
 OrangePi 5. Quantization is necessary to make it run.
 
 ---
 
-## 1. Baseline Colab Test (unquantized)
+### 1. Baseline Colab Test (unquantized)
 
 I first verified the float 8B model on
 [Google Colab](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B/colab)
@@ -39,7 +39,7 @@ correctly with **"heroine"** — ideal behavior.
 
 ---
 
-## 2. Ollama's Quantized Version
+### 2. Ollama's Quantized Version
 
 [Ollama](https://ollama.com/library/deepseek-r1)
 provides a quantized version of DeepSeek R1-8B. While it ran on the OrangePi,
@@ -53,7 +53,7 @@ This prompted me to try my own quantized build.
 
 ---
 
-## 3. My Quantized Version (via `llama.cpp` + Ollama)
+### 3. My Quantized Version (via `llama.cpp` + Ollama)
 
 I used `llama.cpp` to quantize the model to 4-bit (Q4_K_M), reducing the file
 size to ~4.7GB.  I published it on
@@ -72,7 +72,7 @@ I manually stopped the run.
 
 ---
 
-## 4. llama-run with My Quantized Model
+### 4. llama-run with My Quantized Model
 
 To get better control over inference, I switched to using llama-run from
 llama.cpp, built for ARM.  The command `--ngl` enables layer offload which
@@ -102,7 +102,7 @@ This word works because it leverages common pronouns and titles in an English la
 ```
 Success!
 
-# Discussion
+## Discussion
 
 This single riddle prompt illustrates how the 8B model behavior can vary
 significantly depending on:
@@ -120,7 +120,7 @@ significantly depending on:
 Framework and quantization compatibility matter — especially on
 resource-constrained devices like the OrangePi 5.
 
-# Next Steps
+## Next Steps
 
 - [ ] Check model temperature and test other Ollama hyperparameters
 - [ ] Try a broader test set of riddles and reasoning prompts
