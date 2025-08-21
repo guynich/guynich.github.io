@@ -10,4 +10,4 @@ technology.
 This Friday is demo day for the entire cohort and we’ll get to see all the teams
 demos. Invitation link below. Good luck to all!
 
-<img src="./images/guy_nicholson_720.png" alt="invitation"/>
+<img src="/images/guy_nicholson_720.png" alt="invitation"/>
