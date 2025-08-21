@@ -1,5 +1,3 @@
-# From Idea to Working Code & Demo in One Day
-
 Earlier this week, I set myself a challenge: to go from a blank page and an idea to a working demo, complete build process, and a pull request (PR) to an open-source GitHub repository — all in one day.
 
 The existing repo [ten-vad](https://github.com/TEN-framework/ten-vad) provides a promising new ML model for voice activity detection (VAD), which helps speech recognition systems more accurately detect when someone is speaking. The repo is written in C and includes a working demo. However, many users prefer working in Python. One existing project attempted a full Python reimplementation of the C library, but it doesn't yet replicate all the original functionality, and its numerical results may differ.
