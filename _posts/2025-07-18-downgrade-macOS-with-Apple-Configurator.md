@@ -1,4 +1,10 @@
-TL;DR: Use **Apple Configurator** to downgrade a 2018 Mac Mini to macOS **Mojave—don’t use USB installation**.
+---
+layout: post
+title: "Downgrading macOS with Apple Configurator"
+date: 2025-07-18
+---
+
+TL;DR: Use **Apple Configurator** tool to downgrade a 2018 Mac Mini to macOS **Mojave—don't use USB macOS installation**.
 
 I run automated 32-bit apps on macOS using an older Mac Mini. Since macOS Mojave
 was the last version to support 32-bit apps, anything newer breaks my workflow.

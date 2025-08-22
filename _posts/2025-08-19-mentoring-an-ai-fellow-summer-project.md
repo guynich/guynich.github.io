@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Mentoring an AI Fellow summer project"
+date: 2025-08-19
+---
+
 Thanks to the [R42 Institute](https://www.r42institute.com/r42-institute-ai-fellows-program) I have enjoyed this volunteer  opportunity.
 
 I’ve appreciated interacting with curious minded folks interested to try new

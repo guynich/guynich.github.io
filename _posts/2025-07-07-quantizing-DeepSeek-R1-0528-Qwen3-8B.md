@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Quantizing DeepSeek R1-0528-Qwen3-8B"
+date: 2025-07-07
+---
+
 In May 2025, DeepSeek released an impressive update to their R1 model: the
 [DeepSeek-R1-0528-Qwen3-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B).
 The full baseline currently ranks in the Top-10 on the
@@ -122,7 +128,7 @@ resource-constrained devices like the OrangePi 5.
 
 ## Update
 
-Unsloth provide a quantized version of the same DeepSeek model.  It performs 
+Unsloth provide a quantized version of the same DeepSeek model.  It performs
 well with the riddle example.
 ```bash
 ollama run hf.co/unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF:Q4_K_M
@@ -131,10 +137,10 @@ ollama run hf.co/unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF:Q4_K_M
 Inspecting ollama downloads the native model has a different size.
 ```console
 orangepi@orangepi5-desktop:~$ ollama list
-NAME                                                     ID              SIZE      MODIFIED     
-hf.co/unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF:Q4_K_M      ecc092d5e10a    5.0 GB    47 hours ago    
-hf.co/guynich/DeepSeek-R1-0528-Qwen3-8B_Q4_K_M:Q4_K_M    0417db1664a3    5.0 GB    2 days ago      
-deepseek-r1:8b                                           6995872bfe4c    5.2 GB    2 days ago  
+NAME                                                     ID              SIZE      MODIFIED
+hf.co/unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF:Q4_K_M      ecc092d5e10a    5.0 GB    47 hours ago
+hf.co/guynich/DeepSeek-R1-0528-Qwen3-8B_Q4_K_M:Q4_K_M    0417db1664a3    5.0 GB    2 days ago
+deepseek-r1:8b                                           6995872bfe4c    5.2 GB    2 days ago
 ```
 
 ## Next Steps
