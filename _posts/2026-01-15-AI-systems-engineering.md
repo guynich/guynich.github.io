@@ -8,7 +8,7 @@ Beginning this week, I set out to build a "Person Watcher" for my security camer
 engine choices for object detection. I was wrong. The challenge became making everything (queueing, threading, video -> image region masking etc.) run in the
 background of a Mac Mini i7 that was already busy doing a dozen other things.
 
-<img src="/images/person_smart_zoom.jpg" alt="The nice guy who helps with our yard-work" width="30%"/>
+<img src="/images/person_smart_zoom.jpg" alt="The nice guy who helps with our yard-work" width="50%"/>
 
 Here are some key lessons I learnt while moving this script from a "heavy prototype" to a "production-ready service".
 
