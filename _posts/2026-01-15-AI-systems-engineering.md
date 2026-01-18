@@ -39,7 +39,7 @@ that reflected the actual performance.
 
 ### 4. The engineering "gotchas"
 
-* **Masking:** Don't just mask the image; mask the *logic*. Checking the center of a person's head against a binary mask array is computationally "free" compared to running inference on a cropped region that the engine is not optimized to compute.
+* **Masking:** Don't mask the image; mask the *logic*. Checking the center of a person's head against a binary mask array is computationally "free" compared to running inference on a cropped region that the engine is not optimized to compute or to applying numpy math operations on the frame before inference.
 * **Stability:** Never trust a file just because it appeared in a folder. I had to implement a `wait_for_file_stable` loop to ensure the camera had finished writing the `.mp4` before trying to open the stream.
 
 ### 5.  Pick your assistant carefully
@@ -54,4 +54,4 @@ You definitely don't need an NVIDIA GPU to do great computer vision. You just ne
 engine optimization, image processing and robust error handling, I turned an "AI experiment" into a reliable piece of home infrastructure that uses
 artificial intelligence to sift through heaps of captured video.  Happy New Year all!
 
-<sup>1</sup>. For this project I wanted to avoid using an IDE assistant like Cursor or VS Studio's Copilot. e.g.: avoid inline automated inline code changes.  Instead I wanted to take more hands-on approach flipping between the manual code entry in the IDE and the assistant's web page.  I think this is a good working approach for heavy optimization work like this.
+<sup>1</sup>. For this project I wanted to avoid using an IDE assistant like Cursor or VS Studio's Copilot. e.g.: avoid automated inline code changes.  Instead I wanted to take more hands-on approach flipping between manual code entry in the IDE and the assistant's web page.  I find this is a good working approach for heavier optimization work like this.
