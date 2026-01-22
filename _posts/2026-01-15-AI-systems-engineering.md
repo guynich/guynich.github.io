@@ -4,7 +4,7 @@ title: "Lessons from the Edge: Optimizing YOLOv8 on an Intel Mac Mini"
 date: 2026-01-15
 ---
 
-Beginning this week, I set out to build a "Person Watcher" for my security cameras. I thought the challenge would be selecting from the many YOLO model and
+Beginning this week, I set out to build a "Person Watcher"<sup>2</sup> for my security cameras. I thought the challenge would be selecting from the many YOLO model<sup>3</sup> and
 engine choices for object detection. I was wrong. The challenge became making everything (queueing, threading, video -> image region masking etc.) run in the
 background of a Mac Mini i7 that was already busy doing a dozen other things.
 
@@ -54,4 +54,11 @@ You definitely don't need an NVIDIA GPU to do great computer vision. You just ne
 engine optimization, image processing and robust error handling, I turned an "AI experiment" into a reliable piece of home infrastructure that uses
 artificial intelligence to sift through heaps of captured video.  Happy New Year all!
 
-<sup>1</sup>. For this project I wanted to avoid using an IDE assistant like Cursor or VS Studio's Copilot. e.g.: avoid automated inline code changes.  Instead I wanted to take more hands-on approach flipping between manual code entry in the IDE and the assistant's web page.  I find this is a good working approach for heavier optimization work like this.
+<sup>1</sup>  For this project I wanted to avoid using an IDE assistant like Cursor or VS Studio's Copilot. e.g.: avoid automated inline code changes.  Instead I wanted to take more hands-on approach flipping between manual code entry in the IDE and the assistant's web page.  I find this is a good working approach for heavier optimization work like this.
+
+<sup>2</sup>  I added animal detection for the back yard camera using the
+MegaDetector model.
+
+<img src="/images/racoon_smart_zoom.jpg" alt="Raccoon looking for food" width="50%"/>
+
+<sup>3</sup>  I switched to YOLOv11.  It is faster than the YOLOv8 version.
