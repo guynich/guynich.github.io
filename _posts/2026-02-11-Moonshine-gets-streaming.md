@@ -4,8 +4,6 @@ title: "Moonshine.ai adds streaming to their speech model"
 date: 2026-02-11
 ---
 
-Moonshine v2 - a streaming encoder speech model
-
 A real **wow** moment for me.
 
 I learnt last week from the team at Moonshine.ai about their newly released
