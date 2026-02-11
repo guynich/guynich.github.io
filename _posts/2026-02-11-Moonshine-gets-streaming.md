@@ -25,3 +25,4 @@ Bravo!
 * [Moonshine on GitHub](https://github.com/moonshine-ai/moonshine)
 * [Moonshine v2 paper](https://download.moonshine.ai/docs/moonshine_streaming_paper.pdf)
 * [OpenASR leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard) - e.g.: "usefulsensors/moonshine-streaming-medium".
+* [Colab "get started" example](https://colab.research.google.com/github/moonshine-ai/moonshine-v2/blob/main/python/getting-started-with-moonshine-voice.ipynb) - run this with a Google account, for instance open this link in a Chrome browser.
