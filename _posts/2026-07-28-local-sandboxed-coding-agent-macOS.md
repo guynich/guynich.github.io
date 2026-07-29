@@ -9,6 +9,8 @@ I published a new repo today:
 minimal, practical guide for running an AI coding agent entirely on your own
 MacBook, with no internet connection required.
 
+<img src="/images/vs_code_qwen_agent.png" alt="VS Code running on admin connected to standard sandbox account" width="100%"/>
+
 ## The intern problem
 
 A coding agent is a bit like the brightest intern you've ever hired — fast,
