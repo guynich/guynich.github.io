@@ -9,7 +9,9 @@ guidelines](https://github.com/cloudflare/cloudflare-os#contributing) caught my
 eye:
 
 ```text
-AI has made writing code easy. The hard part, today, is not writing the code, but reviewing it, making sure quality stays high, and keeping the product coherent.
+AI has made writing code easy. The hard part, today, is not writing the code,
+but reviewing it, making sure quality stays high, and keeping the product
+coherent.
 ```
 
 Cloudflare has closed cloudflare-os to outside contributions for now, with one
