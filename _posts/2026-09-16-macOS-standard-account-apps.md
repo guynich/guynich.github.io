@@ -56,8 +56,7 @@ on the project; the short version:
 - After that, everything - node discovery, pairing, inference through the
   proxy - ran with no root processes at all.
 
-None of this was documented anywhere; it came out of poking at what broke
-and why. The GitHub discussion has more context.
+The GitHub discussion has more context.
 
 ## My ask
 
