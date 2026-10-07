@@ -13,7 +13,7 @@ Side story: Ruchir joined Apple two weeks before me but seemed to know
 
 I've always been puzzled that sometime a newly created file is not shown in
 Finder's Recents view.  Like when I use macOS' native Image Capture app to scan
-a document to a Documents older.  The scanned file never appears in Recents
+a document to a Documents folder.  The scanned file never appears in Recents
 until after I go find and *open* the file.  Not so useful...
 
 Today, with Claude's help, I realized a Finder Smart Folder can do better, much
