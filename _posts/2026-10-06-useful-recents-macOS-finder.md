@@ -19,7 +19,7 @@ until after I go find and *open* the file.  Not so useful...
 Today, with Claude's help, I realized a Finder Smart Folder can do better, much
 better, for me than Apple Finder's native Recents.  I'm testing these settings.
 
-<img src="/images/finder_smart_folder_scoped.png" alt="Custom Recents in macOS Finder"
+<img src="/images/finder_smart_search_scoped.png" alt="Custom Recents in macOS Finder"
 width="100%"/>
 
 * Scope: in Finder select `Documents` and hit `command + F` to generate a scoped
