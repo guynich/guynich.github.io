@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "After a long and puzzling wait, a more useful macOS Finder Recents view"
+title: "After a long and puzzling wait, a more useful macOS Finder Recents view (WIP)"
 date: 2026-10-06
 ---
 
@@ -25,3 +25,7 @@ Favorite.  It reruns every time you open the view in Finder.
 width="100%"/>
 
 This is going to make working on my computer a little bit easier every day.
+
+UPDATE: unfortunately this method doesn't locate all newly created files.  I
+suspect it's related to macOS' Spotlight function, but I'm not sure. Skip it
+if you don't have time to test.
