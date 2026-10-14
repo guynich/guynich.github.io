@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "After a long and puzzling wait, a more useful macOS Finder Recents view (WIP)"
+title: "After a long and puzzling wait, a more useful macOS Finder view"
 date: 2026-10-06
 ---
 
-> Updated since first post: adds scope; date added; list; sorting.
+> Updated since first post: adds scope; date added; list; sorting; title.
 
 I switched to macOS when I joined Apple in late 2009.  I never missed Windows
 since.  My new colleague Ruchir showed me some Finder tricks and I got it.
