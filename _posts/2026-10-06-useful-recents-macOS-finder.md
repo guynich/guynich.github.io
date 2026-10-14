@@ -22,7 +22,7 @@ better, for me than Apple Finder's native Recents to find new files.
 <img src="/images/finder_smart_search.png" alt="Useful Recents in macOS Finder"
 width="100%"/>
 
-This is going to make working on my computer a little bit easier every day.
+Listing new document files that are unopened will make my work easier every day.
 
 ---
 
